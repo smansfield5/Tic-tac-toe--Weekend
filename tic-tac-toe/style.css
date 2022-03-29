@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+button {
+    height: 10vmin;
+    width: 30vmin;
+    cursor: pointer;
+    align-items: center;
+}
+
+td div {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:  100px 100px 100px;
+    background-color: blue;
+    margin: 0.5vmin;
+    pointer-events: none;
+    height: 30vmin;
+    width: 30vmin;
+}
+
